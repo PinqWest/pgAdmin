@@ -113,6 +113,7 @@ WHERE r.status = TRUE AND r.price > 5000000;
 INSERT INTO building_types (type_name) VALUES ('Apartment');
 INSERT INTO building_types (type_name) VALUES ('House');
 INSERT INTO building_types (type_name) VALUES ('Penthouse');
+```
 
 ## Districts
 ```sql
@@ -120,12 +121,14 @@ INSERT INTO districts (district_name) VALUES ('Downtown');
 INSERT INTO districts (district_name) VALUES ('Suburb');
 INSERT INTO districts (district_name) VALUES ('Riverside');
 INSERT INTO districts (district_name) VALUES ('Industrial');
+```
 
 
 ## Building Materials
 ```sql
 INSERT INTO building_materials (material_name) VALUES ('Panel');
 INSERT INTO building_materials (material_name) VALUES ('Brick');
+```
 
 ## Evaluation Criteria
 ```sql
@@ -134,6 +137,7 @@ INSERT INTO evaluation_criteria (criterion_name) VALUES ('Cleanliness');
 INSERT INTO evaluation_criteria (criterion_name) VALUES ('Neighbors');
 INSERT INTO evaluation_criteria (criterion_name) VALUES ('Shops');
 INSERT INTO evaluation_criteria (criterion_name) VALUES ('Safety');
+```
 
 ## Realtors
 ```sql
@@ -143,3 +147,4 @@ INSERT INTO realtors (last_name, first_name, middle_name, phone_number) VALUES
 ('Brown', 'Charlie', 'C.', '555-8765'),
 ('Taylor', 'Emily', 'D.', '555-4321'),
 ('Wilson', 'Michael', 'E.', '555-1111');
+```
